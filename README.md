@@ -1,4 +1,4 @@
-# 👨‍🍳 PSP-DAM-ACTEVA03B - Simulación Concurrente de Cocina
+# 👨‍🍳 PSP-DAM-ACTEVA03 - Simulación Concurrente de Cocina
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -34,9 +34,9 @@ Demostrar la comprensión de los conceptos de programación concurrente con hilo
 ```
 ┌─────────────────────────────────────────────────┐
 │            CLASE COCINA (Principal)             │
-│   - Contiene la lista de pedidos (Recurso)     │
-│   - Gestiona el Bloqueo (Lock / Monitor)       │
-│   - Lanza y coordina los hilos 'Cocinero'      │
+│   - Contiene la lista de pedidos (Recurso)      │
+│   - Gestiona el Bloqueo (Lock / Monitor)        │
+│   - Lanza y coordina los hilos 'Cocinero'       │
 └─────────────┬──────────────────┬────────────────┘
               │                  │
       ┌───────▼───────┐    ┌─────▼─────┐
@@ -44,14 +44,14 @@ Demostrar la comprensión de los conceptos de programación concurrente con hilo
       │ (Compartida)  │    │  (Lock)   │
       └───────▲───────┘    └─────▲─────┘
               │                  │
-              └─────────┬────────┴─────────┐
+              └─────────┬────────┴───────────┐
                         │(Acceso Sincronizado)
               ┌─────────▼─────────┬──────────▼─────────┐
-              │                   │                     │
-         ┌──────────┐        ┌──────────┐        ┌──────────┐
-         │Cocinero-1│        │Cocinero-2│        │Cocinero-3│
-         │  (Hilo)  │        │  (Hilo)  │        │  (Hilo)  │
-         └─────┬────┘        └─────┬────┘        └─────┬────┘
+              │                   │                    │
+         ┌──────────┐       ┌──────────┐          ┌──────────┐
+         │Cocinero-1│       │Cocinero-2│          │Cocinero-3│
+         │  (Hilo)  │       │  (Hilo)  │          │  (Hilo)  │
+         └─────┬────┘       └─────┬────┘          └─────┬────┘
                │                  │                     │
                └───────────┬──────┴───────────┬─────────┘
                            │(Acceso Sincronizado)
@@ -66,7 +66,7 @@ Demostrar la comprensión de los conceptos de programación concurrente con hilo
 ## 📁 Estructura del Proyecto
 
 ```
-PSP-DAM-ACTEVA03B/
+PSP-DAM-ACT3EVA01/
 ├── 📂 Java/
 │   ├── Cocina.java             # Clase principal, gestiona hilos y lock
 │   ├── Cocinero.java           # Clase Hilo (Thread/Runnable)
