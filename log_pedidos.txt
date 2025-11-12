@@ -1,0 +1,10 @@
+=== LOG DE PEDIDOS ===
+Inicio de la simulación
+
+Cocinero-1 procesó Pedido #1: Croquetas de Jamón
+Cocinero-3 procesó Pedido #3: Pulpo a la Gallega
+Cocinero-2 procesó Pedido #2: Pulpo a la Gallega
+Cocinero-3 procesó Pedido #5: Marmitako
+Cocinero-1 procesó Pedido #4: Chuletón de Buey
+Cocinero-2 procesó Pedido #6: Patatas Bravas
+Cocinero-3 procesó Pedido #7: Jamón Ibérico
